@@ -10,7 +10,7 @@ export default function Home() {
       <div className={style.uga}>
       <Box title="bikcraft">
       </Box>
-      <Box title="Wiki Valley">
+      <Box title="Wiki-Valley">
       </Box>
       <Box title="Cauadsm">
       </Box>
