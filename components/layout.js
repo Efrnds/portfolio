@@ -9,7 +9,8 @@ export default function Layout({ children }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/public/images/profile.jpg" />
+        <title>Portfolio</title>
+        <link rel="icon" href="/images/favicon.svg" />
         <meta
           name="description"
           content="Learn how to build a personal website using Next.js"
@@ -31,7 +32,7 @@ export default function Layout({ children }) {
           width={100}
           alt="logo"
         />
-        <Link href="posts/contact">Contact-me</Link>
+        <Link href="/contact">Contact-me</Link>
       </header>
       <main className={styles.main}>{children}</main>
       <footer className={styles.footer}>

@@ -1,0 +1,54 @@
+.card{
+    display: grid;
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
+    background-color: #8686863b;
+    border-radius: 12px;
+    border: 1px solid var(--borda);
+    justify-items: center;
+    width: 30rem;
+    height: fit-content;
+    padding: 2.5rem;
+}
+
+.imgcard img {
+    width: 10rem;
+    height: auto;
+    border-radius: 100rem;
+}
+
+.imgcard {
+    padding: 1rem;
+    border-radius:7rem;
+    border: #0000006c 1px solid;
+}
+
+.card span a img{
+    width: 3rem;
+    transition: ease .3s;
+}
+.card span a img:hover{
+    opacity: .5;
+}
+
+.contact {
+    display: grid;
+    place-items: center;
+    color: #000;
+}
+
+
+.contact a {
+    color: #fb0;
+    text-decoration: none;
+    transition: ease-in;
+    transition-duration: .2s;
+}
+
+.contact a:hover {
+    color: #b58e00;
+}
+
+.socialMedia {
+    display: flex;
+}
