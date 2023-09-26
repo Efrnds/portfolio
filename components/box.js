@@ -7,7 +7,7 @@ export default function Box({title, href}) {
         <div className={styles.proj}>
             <h1>{title ? title : "Default title"}</h1>
             <div className={styles.middle}>
-                <Link className='botaoMiddle' href={href}>visitar</Link>
+                <Link className='buttonMiddle' href={href}>visit</Link>
             </div>
         </div>
     );

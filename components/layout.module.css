@@ -2,13 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work Sans:wght@600&display=swap'); /* WORK SANS BOLD */
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap'); /* WORK SANS BOLD */
+
 @import url('https://fonts.googleapis.com/css2?family=IBM Plex Mono:wght@400&display=swap'); /* WORK SANS REGULAR */
 
 .container {
   margin: auto;
   display: grid;
   place-items: center;
-  font-family: Work Sans, sans-serif;
+  font-family: Ubuntu , sans-serif;
   font-size: 1rem;
   width: 90vw;
   place-content: center;
