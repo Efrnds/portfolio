@@ -9,7 +9,7 @@ export default function Home() {
             <div className={style.contact}>
                 <h2>Entre em contato:</h2>
                 <div className={style.card}>
-                    <span className={style.imgcard}><Image src="/images/pfp.jpg" width={200} height={200} alt="profile picture" srcset="" /></span>
+                    <span className={style.imgcard}><Image src="/images/pfp.png" width={200} height={200} alt="profile picture" srcset="" /></span>
                     <div className={style.email} >
                         <Link href="mailto:contato.efrnds@outlook.com ">contato.efrnds@outlook.com</Link>
                         <Link href="tel:+55(44)99807-4897 ">(44)99807-4897</Link>

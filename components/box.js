@@ -2,12 +2,12 @@ import styles from './box.module.css';
 import Link from 'next/link';
 
 
-export default function Box({title}) {
+export default function Box({title, href}) {
     return (
         <div className={styles.proj}>
             <h1>{title ? title : "Default title"}</h1>
             <div className={styles.middle}>
-                <Link className='botaoMiddle' href="">visitar</Link>
+                <Link className='botaoMiddle' href={href}>visitar</Link>
             </div>
         </div>
     );

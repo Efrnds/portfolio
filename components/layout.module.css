@@ -77,9 +77,15 @@
 }
 
 .footer a {
-  color: rgb(0, 110, 255);
+  color: #0059ff;
   text-decoration: underline;
 }
+
+.footer a:hover {
+  color: #003eb2;
+  text-shadow: #7aa8ff 1px 0px 2px;
+}
+
 .footer p{
   text-align: center;
 }
