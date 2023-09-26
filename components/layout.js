@@ -25,14 +25,16 @@ export default function Layout({ children }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        <Image
-          priority
-          src="/images/logo.svg"
-          height={100}
-          width={100}
-          alt="logo"
-        />
-        <Link href="/contact">Contact-me</Link>
+        <Link href='/'>
+          <Image
+            priority
+            src="/images/logo.svg"
+            height={100}
+            width={100}
+            alt="logo"
+          />
+        </Link>
+        <Link href="/contact" className={styles.contactButton}>Contact-me</Link>
       </header>
       <main className={styles.main}>{children}</main>
       <footer className={styles.footer}>
