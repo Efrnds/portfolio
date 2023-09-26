@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM Plex Mono:wght@400&display=swap'); /* WORK SANS REGULAR */
+
 .proj {
     border: .2rem solid #000;
     border-radius: 1rem;
@@ -54,8 +54,8 @@
     font-size: 1.5vw;
 }
 .proj {
-    font-size: 12pt;
-    width: calc(30vh - 12pt);
-    height: calc(30vh - 12pt);
+    font-size: 10pt;
+    width: 30vh;
+    height: 30vh ;
 }
 }
