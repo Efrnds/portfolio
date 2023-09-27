@@ -8,7 +8,7 @@ export default function Home() {
     { title: "wiki-valley", href: "https://wiki-valley.github.io" },
     { title: "Cauadsm", href: "https://cauadsm.github.io" },
     { title: "bikcraft", href: "https://bikcraft.github.io/" },
-    { title: "camera.tools", href: "/" },
+    { title: "camera.tools", href: "https://camera-tools.github.io/" },
     { title: "github", href: "/" },
     // Adicione mais projetos conforme necessário
   ];
